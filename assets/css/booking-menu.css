@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+#main-section {
+  height: 430px;
+  width: 300px;
+
+  padding: 12px;
+  background-color: white;
+}
+
+#AllerS {
+  height: 30px;
+  width: 30px;
+  margin-left: 14px;
+}
+
+#checkBox {
+  font-size: 16px;
+  margin-left: 4px;
+  font-family: easyJet Rounded Book;
+}
+
+.boxes {
+  border: lightgray solid 1px;
+  padding: 10px;
+  margin: 8px;
+}
+
+.boxes label {
+  font-family: easyJet Rounded Book;
+}
+
+.boxes > label > input {
+  border: none;
+  height: 25px;
+}
+
+.icons {
+  display: flex;
+  color: #ff6602;
+  flex-direction: column;
+  gap: 23px;
+  position: absolute;
+  right: 8px;
+  top: 20px;
+}
+/* .fa-solid {
+  font-size: 30px;
+} */
+.icon-boxes {
+  display: flex;
+  position: relative;
+}
+
+.booking-icon {
+  font-size: 25px;
+}
+
+.separator {
+  border: solid lightgray 0.5px;
+  margin: 10px auto;
+  width: 200px;
+}
+
+.travel {
+  color: #ff7907;
+  font-family: easyJet Rounded Book;
+}
+
+#passengers {
+  margin: 10px;
+  font-family: easyJet Rounded Book;
+}
+
+.orange-operator {
+  color: #ff7907;
+  font-family: eeasyJet Rounded Book;
+}
+
+#passengers button {
+  font-size: 20px;
+  background-color: white;
+  border: 0px;
+  font-family: easyJet Rounded Book;
+}
+
+#passengers p {
+  font-size: 13px;
+  margin: 6px 0;
+  font-family: easyJet Rounded Book;
+}
+
+#passengers span {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: easyJet Rounded Book;
+}
+
+#show-flight {
+  background-color: #ff6602;
+  color: white;
+  border: none;
+  width: 100%;
+  height: 30px;
+  border-radius: 3px;
+  font-size: 15px;
+  font-family: easyJet Rounded Book;
+}
+
+#more {
+  color: #ff7907;
+  margin: 4px;
+  font-size: 12px;
+  font-family: easyJet Rounded Book;
+}
+#more p:first-child {
+  margin: 8px 0;
+}
+
+#checking-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.number-passengers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

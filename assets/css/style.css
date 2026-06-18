@@ -1,0 +1,568 @@
+/* general =import*/
+@import "./booking-menu.css";
+/* header */
+
+header {
+  background-image: url(../img/headbar.gif);
+  width: 100%;
+  height: 60px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  font-family:
+    easyJet Rounded Book,
+    sans-serif;
+}
+
+.hidden-icon {
+  display: none;
+}
+
+.icon-670 {
+  display: none;
+}
+
+header > div {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+header > div > a {
+  text-decoration: none;
+  color: #ffffff;
+}
+header button {
+  background-color: #ffffff;
+  padding: 5px;
+  color: #ff5300;
+  border: #ffffff;
+  border-radius: 2px;
+}
+
+/* main ------------------------*/
+main :first-child {
+  position: relative;
+}
+
+#test {
+  height: 70%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.booking-menu {
+  height: 100%;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#swim {
+  width: 300px;
+  height: 430px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#swim h2 {
+  font-size: 45px;
+  font-family: easyJet headline;
+  line-height: 50px;
+}
+
+#swim p {
+  width: 208px;
+  line-height: 20px;
+}
+
+#rigth-column {
+  font-size: 15px;
+}
+
+#price {
+  font-size: 13px;
+}
+
+#swim span {
+  display: inline-block;
+  padding-top: 20px;
+  font-size: 60px;
+}
+
+#swim button {
+  background-color: #f60;
+  color: white;
+  border: none;
+  width: 70%;
+  height: 35px;
+  border-radius: 3px;
+  font-size: 15px;
+  font-family: easyJet Rounded Book;
+}
+
+.white-part {
+  background-color: hwb(0 100% 0% / 70%);
+  height: 180px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.white-city {
+  display: flex;
+  justify-content: space-between;
+}
+
+.white-part > .white-city > .city {
+  height: 120px;
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.destination {
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.pcg {
+  font-size: 14px;
+}
+
+.prevent {
+  font-family: easyJet Rounded Book;
+  font-size: 12px;
+  padding: 15px 0;
+}
+
+.white-part > .white-city > .city > button {
+  background-color: #f70;
+  color: #ffffff;
+  margin: 5px;
+  padding: 5px 20px;
+  border-radius: 3px;
+  font-size: 12px;
+  border: none;
+  width: fit-content;
+}
+
+.white-part > .white-city > .city:first-child {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+#beach {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#satelite {
+  height: 250px;
+  object-fit: cover;
+  object-position: top;
+}
+h2 {
+  font-size: 15px;
+  margin: 10px 0;
+  font-weight: bold;
+  font-family:
+    easyJet Rounded Book,
+    sans-serif;
+}
+/* first caroussel */
+h3,
+.caroussel p {
+  font-size: 15px;
+  padding: 15px;
+  margin: none;
+  font-family:
+    easyJet Rounded Book,
+    sans-serif;
+}
+
+.caroussel {
+  box-shadow: 0 5px 5px #bbb;
+  margin-bottom: 20px;
+  width: 30%;
+  height: 380px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.caroussel img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.caroussel button {
+  background-color: #f60;
+  color: #ffffff;
+  margin: 5px;
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-size: 12px;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  border: none;
+}
+
+.caroussel-section {
+  display: flex;
+  gap: 32px;
+  overflow: scroll;
+}
+/* -------------- */
+
+.wrapper > div > p {
+  text-align: justify;
+  font-family:
+    easyJet Rounded Book,
+    sans-serif;
+  margin-bottom: 20px;
+}
+
+.border > img {
+  flex: 2;
+}
+.discover {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}
+.discover p {
+  font-size: 14px;
+  font-family: easyJet Rounded Book;
+}
+.wrapper > div > div > button {
+  background-color: #f60;
+  color: #ffffff;
+  margin: 5px;
+  padding: 10px 40px;
+  font-family:
+    easyJet Rounded Book,
+    sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-self: flex-end;
+  border: none;
+}
+
+.border {
+  box-shadow: 0 0 5px #bbb;
+  margin-bottom: 20px;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#bretagne {
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+}
+/* three-imgs */
+.three-imgs img {
+  height: 200px;
+  width: 280px;
+  border-radius: 5px;
+}
+.three-imgs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.three-imgs div {
+  position: relative;
+}
+
+.three-imgs .title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 60px;
+  color: white;
+  font-size: 28px;
+}
+
+.three-imgs .link {
+  position: absolute;
+  bottom: 4px;
+  left: 15px;
+  color: white;
+}
+
+/* help-section */
+#caroussel-help {
+  display: flex;
+  gap: 30px;
+  overflow: scroll;
+}
+
+.help-section h3 {
+  font-size: 25px;
+}
+
+.boxess {
+  width: 190px;
+  height: 190px;
+  background-color: #303030;
+  border-radius: 15px;
+  flex-shrink: 0;
+  position: relative;
+}
+#fa {
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  left: 65px;
+}
+.icon {
+  font-size: 50px;
+}
+
+.boxess p {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  font-family:
+    easyJet Rounded Book,
+    sans-serif;
+}
+/* footer ----------------------- */
+
+footer {
+  background-color: #f3f3f3;
+  padding: 30px;
+}
+footer > div {
+  padding: 15px;
+}
+#informations {
+  display: flex;
+  justify-content: space-between;
+}
+footer p {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+footer li {
+  line-height: 20px;
+  font-size: 13px;
+  font-family:
+    easyJet Rounded Book,
+    sans-serif;
+}
+
+/* point de rupture 1115px 960px 670px */
+
+@media (max-width: 1115px) {
+  /* header ---------- */
+
+  .hidden-1115 {
+    display: none;
+  }
+
+  .hidden-icon {
+    display: inline;
+    font-size: 25px;
+    color: white;
+  }
+
+  .logo-easyJet {
+    gap: 10px;
+  }
+
+  /* main ----------- */
+
+  .white-part > .white-city > .hidden-1115 {
+    display: none;
+  }
+
+  .white-part > .white-city {
+    padding: 10px 20px 0px 20px;
+    justify-content: space-between;
+  }
+
+  .white-part > .white-city > .city-1115 {
+    width: 280px;
+    padding: 0px 10px;
+  }
+
+  .white-part > .white-city > .city-1115 > .pcg {
+    font-size: 13px;
+  }
+}
+
+/* -------------------- */
+
+@media (max-width: 960px) {
+  .booking-menu {
+    margin-left: 30px;
+  }
+
+  .border {
+    width: 630px;
+    margin: 50px auto;
+  }
+
+  .border-960 {
+    flex-direction: column;
+  }
+
+  .discover {
+    gap: 15px;
+  }
+
+  .three-imgs {
+    max-width: 630px;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+
+  .under-img {
+    width: 100%;
+  }
+
+  .under-img > img {
+    width: 100%;
+  }
+}
+
+/* --------------------- */
+
+@media (max-width: 670px) {
+  /* header ---------- */
+  .hidden-670 {
+    display: none;
+  }
+
+  .icon-670 {
+    color: white;
+    display: inline;
+    font-size: 22px;
+  }
+
+  .connect {
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+  }
+
+  /* booking-menu */
+
+  #swim {
+    display: none;
+  }
+
+  .white-part > .white-city > .hidden-670 {
+    display: none;
+  }
+
+  .white-part > .white-city {
+    width: 100%;
+  }
+
+  #beach {
+    visibility: hidden;
+  }
+
+  #test {
+    background-color: lightgray;
+    height: 530px;
+    display: flex;
+  }
+
+  .booking-menu {
+    margin-left: 0;
+    margin: 0 auto;
+  }
+
+  #main-section {
+    background-color: white;
+    margin: 0 auto;
+  }
+
+  .white-city {
+    width: 100%;
+  }
+
+  .prevent {
+    margin-left: 25px;
+  }
+
+  .wrapper {
+    max-width: 670px;
+  }
+
+  .border-670 {
+    width: 300px;
+  }
+
+  .caroussel {
+    width: 280px;
+  }
+
+  .caroussel-section {
+    margin-left: 30px;
+    max-width: 670px;
+  }
+
+  /* three-imgs */
+  .three-imgs .under-img {
+    width: 280px;
+    height: 200px;
+  }
+
+  .three-imgs {
+    display: flex;
+    gap: 15px;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    padding: 20px;
+  }
+
+  footer ul {
+    display: none;
+  }
+
+  #informations {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
+
+  #caroussel-help {
+    width: 100%;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  footer {
+    margin-top: 40px;
+  }
+}
