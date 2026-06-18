@@ -536,6 +536,11 @@ footer li {
     height: 200px;
   }
 
+  .three-imgs .under-img > img {
+    width: 280px;
+    height: 200px;
+  }
+
   .three-imgs {
     display: flex;
     gap: 15px;
